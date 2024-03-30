@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  transition: all ease 0.1s;
+  background-color: blue;
+  color: white;
+}
+
+.enemy {
+  background-color: red;
+  color: white;
+}
+
+.oper__wrap{
+  width: 400px;
+  border: 1px solid #ededed;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.oper__wrap > div{
+  display: inline-block;
+  border: 1px solid #7ed8e2;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.oper__wrap > div span{
+  display: inline-block;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red;
+  border-radius: 100%;
+}
+
+
+
+
+.win_wrap{
+  bottom: 1px solid green;
+  color: rgb(14, 154, 14);
+  padding: 10px;
+  border-radius: 10px;
+}
